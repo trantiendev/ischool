@@ -3,3 +3,12 @@
 //     max-width: 1200px;
 //   }
 // }
+
+@media (max-width: 640px){
+    .title-span{
+      span{
+        display: block;
+      }
+    }
+
+}
