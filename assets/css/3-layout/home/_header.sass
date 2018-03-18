@@ -1,0 +1,71 @@
+header
+
+  section.topbar
+    height: 40px
+    background: #1f1e23
+    font-family: "Montserrat", sans-serif
+    font-size: 0.8rem
+
+  .row
+    margin-left: 0px
+    margin-right: 0px
+
+    p, a
+      color: #fff
+
+    .login
+      border-right: 1px solid #fff
+
+  section.menu
+    border-bottom: 1px solid #5c5c5c
+    .container
+      height: 80px
+
+      &.active
+        height: 60px
+        transition: all .3s linear
+
+    .fa-shopping-bag
+      color: #fff
+      font-size: 2em
+      &.active
+        color: #302f2f
+        transition: all .3s linear
+
+
+
+    ul.navbar-nav
+      margin-right: 5rem
+      border-radius: 0
+
+      li.nav-item
+        a.nav-link
+          color: #ffffff
+          font-size: 1.1em
+          padding: 35px 10px
+          border-bottom: 2px solid transparent
+          &:hover
+            transition: border .2s linear
+            border-bottom: 2px solid #fddf03
+
+          &.active-menu
+            color: #302f2f
+            transition: all .3s linear
+            padding: 25px 10px
+
+
+
+    li.dropdown
+
+      a#navbarDropdown
+        &:focus
+          outline: none
+
+    .dropdown-menu
+      // transition: all .3s linear !important
+      top: 96%
+
+
+
+    .onHover
+      display: block !important

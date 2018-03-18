@@ -1,0 +1,41 @@
+@media (max-width: 640px){
+  section.home-popular{
+    h3.popular-title{
+      span{
+        display: block;
+      }
+    }
+  }//section.home-popular
+
+}
+
+@media (max-width: 992px){
+  section.home2-popular{
+
+    .container{
+
+      .card-1{
+        margin-bottom: 20px;
+      }
+
+      .card-2{
+        .card-img{
+          width: 100%;
+          img{
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .card-body-2{
+          position: relative;
+          width: 90%;
+          margin: 0 auto;
+          right: 0;
+          top: -20px;
+        }
+      }//card-2
+
+    }
+
+  }//section.home2-popular
+}

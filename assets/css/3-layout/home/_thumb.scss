@@ -1,0 +1,61 @@
+section.home-thumb{
+  background-image: url(../img/home-1/thumb-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  width: 100%;
+  height: 100vh;
+  .row{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+
+  .thumb-title{
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    margin-top: 40px;
+
+    h4{
+      margin: 25px 0px 30px;
+
+    }
+
+    h1{
+      font-size: 70px;
+    }
+
+    .thumb-button{
+      button.btn-course{
+        background: $yellow;
+        border: 1px solid $yellow;
+
+      }
+      button.btn-read{
+        margin-right: 10px;
+        &:hover{
+          background: none;
+        }
+      }
+      button{
+        border-radius: 0;
+        cursor: pointer;
+        font-size: 0.8rem;
+        font-weight: 600;
+        padding: .8rem 1.5rem;
+
+        i{
+          padding-left: 10px;
+        }
+      }
+
+    }
+
+  }
+}

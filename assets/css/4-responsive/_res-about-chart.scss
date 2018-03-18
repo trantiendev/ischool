@@ -1,0 +1,30 @@
+@media (max-width: 1100px){
+  section.about-chart{
+    .container{
+
+      .chart-wrap{
+
+        .chart-wrap-content{
+            width: calc(50% - 20px);
+        }//chart-wrap-content
+      }//chart-wrap
+
+    }
+  }
+
+}
+@media (max-width: 740px){
+  section.about-chart{
+    .container{
+
+      .chart-wrap{
+
+        .chart-wrap-content{
+            width: calc(80% - 20px);
+        }//chart-wrap-content
+      }//chart-wrap
+
+    }
+  }
+
+}

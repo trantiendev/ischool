@@ -1,0 +1,69 @@
+section.about-choice
+{
+  // margin-top: 150px;
+  padding: 100px 0px;
+  h2{
+    margin-bottom: 50px;
+    span{
+      color: $yellow;
+    }
+  }
+
+  ul.about-choice-tab{
+    padding: 0px;
+    margin: 0px;
+    li{
+      list-style: none;
+      margin-bottom: 5px;
+      a{
+        color: #000;
+        transition: all .3s ease;
+        font-size: 1.2em;
+        &:hover{
+          color: $yellow;
+        }
+      }
+    }
+  }//ul.about-choice-tab
+
+  #v-pills-tab{
+
+    .line{
+      width: 1px;
+      height: 230px;
+      background: #ccc;
+      position: absolute;
+      top: 5px;
+      left: 25px;
+    }
+    a.nav-link{
+      width: 20px ;
+      height: 20px;
+      background: #999;
+      transform: rotate(45deg);
+      margin: 20px 0px 20px;
+      padding: 0px;
+      border-radius: 0px;
+      border: 2px solid #ccc;
+      transition: all .3s ease;
+      &:hover{
+        background: $yellow;
+        border-color: $yellow-2;
+      }
+      &.active{
+        background: $yellow;
+        border-color: $yellow-2;
+      }
+    }
+
+  }
+  .welcome-img{
+    border: 1px solid $yellow-2;
+    img{
+      width: 100%;
+      height: auto;
+      transform: translate(30px, -30px);
+    }
+  }
+
+}

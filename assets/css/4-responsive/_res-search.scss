@@ -1,0 +1,22 @@
+@media (max-width: 992px){
+  section.search{
+    .searc-wrap-box{
+      display: none;
+    }
+    .search-wrap{
+      margin: 50px 0px 0px;
+
+      form{
+
+        .form-group{
+          display: block;
+          button{
+            width: 100%;
+          }
+        }//form-group
+
+      }//form
+
+    }//search-wrap
+  }
+}

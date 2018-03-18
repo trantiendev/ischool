@@ -1,0 +1,25 @@
+section.home-subscribe{
+  background-image: url(../img/home-1/subscribe.png);
+  padding: 70px 0px;
+  h1{
+    color: #fff;
+    font-size: 2.2em;
+  }
+  form{
+    background: #fff;
+    .form-group{
+      display: flex;
+      justify-content: space-between;
+      input{
+        border: 0;
+      }
+      a{
+        background: $yellow-2;
+        color: #fff;
+        border-radius: 0;
+        font-size: 0.8em;
+        padding-top: 15px;
+      }
+    }//form-group
+  }//form
+}

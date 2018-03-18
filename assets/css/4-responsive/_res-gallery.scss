@@ -1,0 +1,19 @@
+@media (max-width: 740px) {
+  section.gallery-1{
+    margin-bottom: 120px;
+    .gallery-wrap ul{
+      li{
+        width: 50%;
+
+      }
+    }
+
+  }
+
+  section.gallery-2{
+    ul.filter-control li{
+      font-size: 0.9em;
+    }
+  }
+
+}

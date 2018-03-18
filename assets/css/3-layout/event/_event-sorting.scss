@@ -1,0 +1,52 @@
+section.event-sorting{
+  padding: 100px 0px;
+  .container{
+
+    p.showing{
+      display: flex;
+      align-items: center;
+      a{
+        color: #777;
+        font-size: 1.4em;
+        margin: 0px 10px;
+        &:hover{
+          color: $yellow;
+        }
+      }
+    }
+
+
+    .form-group{
+      display: flex;
+      // background: pink;
+      padding: 3px;
+      border: 1px solid #ddd;
+      input{
+        border: none;
+      }
+      button.btn-course{
+        background: $yellow;
+        border: 1px solid $yellow;
+
+      }
+      button.btn-read{
+        margin-right: 10px;
+        &:hover{
+          background: none;
+        }
+      }
+      button{
+        border-radius: 0;
+        cursor: pointer;
+        font-size: 0.8rem;
+        font-weight: 600;
+        padding: 0.8rem 1.5rem;
+
+        i{
+          padding-left: 10px;
+        }
+      }
+    }//form-group
+
+  }
+}

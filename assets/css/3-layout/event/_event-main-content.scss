@@ -1,0 +1,26 @@
+section.event-main-content{
+  padding-top: 0;
+
+  .card-body{
+
+    p.card-address, p.card-time{
+      font-size: 0.9em;
+      display: block;
+    }
+    a.btn-register{
+      background: #fff !important;
+      color: $yellow;
+      border: none !important;
+      padding: 0 !important;
+    }
+  }//card-body
+
+  ul.pagination{
+    li{
+      margin-right: 10px;
+      a{
+        color: #777;
+      }
+    }
+  }
+}

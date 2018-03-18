@@ -1,0 +1,70 @@
+header.fixed-top
+  section.topbar.d-flex.align-items-center
+    .container
+      .row.justify-content-between
+        p.text-uppercase HOTLINE: +09 324 928
+        p.text-uppercase
+          a(href='#').login.mr-1 Login      
+          a(href='#') Register
+  
+  section.menu
+    
+    nav.navbar.navbar-expand-lg.navbar-light
+      .container
+        a.navbar-brand(href='index.html')
+          img(src='assets/img/logo.png' alt='')
+
+        |   
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        |   
+        #navbarSupportedContent.collapse.navbar-collapse
+          
+          ul.navbar-nav.ml-auto
+            li.nav-item.dropdown
+              a#navbarDropdown.nav-link.text-uppercase.dropdown-toggle.text-uppercase(href='index.html', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+                | Home 
+                span.sr-only (current)
+              .dropdown-menu.animated(aria-labelledby='navbarDropdown' )
+                a.dropdown-item(href='index.html') Home 1
+                |           
+                a.dropdown-item(href='home-2.html') Home 2
+                |           
+                a.dropdown-item(href='#') Home 3
+            |       
+            li.nav-item.dropdown
+              a#navbarDropdown.nav-link.dropdown-toggle.text-uppercase(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+                | page
+              |         
+              .dropdown-menu.animated(aria-labelledby='navbarDropdown' )
+                a.dropdown-item(href='teacher.html') Teacher
+                |           
+                a.dropdown-item(href='gallery.html') Gallery
+                |           
+                a.dropdown-item(href='error.html') Error
+                a.dropdown-item(href='about.html') About
+            |       
+            li.nav-item
+              a.nav-link.text-uppercase(href='courses.html') courses
+            
+            li.nav-item
+              a.nav-link.text-uppercase(href='event.html') events
+
+            li.nav-item
+              a.nav-link.text-uppercase(href='home-2.html') blog
+                
+            li.nav-item
+              a.nav-link.text-uppercase(href='contact.html') contact
+            |           
+            
+          a(href="#"): i.fa.fa-shopping-bag  
+                
+
+                
+              
+      
+
+
+
+
+        

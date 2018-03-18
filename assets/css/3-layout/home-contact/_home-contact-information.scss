@@ -1,0 +1,28 @@
+section.contact-information{
+  margin-top: 100px;
+  .container{
+    h2{
+      margin-bottom: 80px;
+      span{
+        color: $yellow;
+      }
+    }
+    .contact-table{
+      border: 1px solid #ddd;
+      padding: 20px 0px;
+      transition: all .3s ease;
+      cursor: pointer;
+      &:hover{
+        box-shadow: 1px 10px 30px rgba(#000, 0.3);
+        transform: scale(1.1);
+      }
+      h4{
+        margin: 30px 0px;
+      }
+    }//contact-table
+    .map{
+      margin-top: 80px;
+      width: 100%;
+    }
+  }
+}

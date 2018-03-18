@@ -1,0 +1,32 @@
+section.welcome{
+  background: #fff;
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 100px 0px;
+  .welcome-title{
+
+
+
+    h2{
+      margin-bottom: 50px;
+      span{
+        color: $yellow;
+      }
+    }
+
+    p{
+      margin-bottom: 30px;
+    }
+
+  }//welcome-title
+
+  .welcome-img{
+    border: 1px solid $yellow;
+    img{
+      width: 100%;
+      height: auto;
+      transform: translate(30px, -30px);
+    }
+  }
+}

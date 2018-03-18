@@ -1,0 +1,108 @@
+/* IMPORT TOOLS
+   ----------------------------- */
+// $icon-font-path: '0-tools/bootstrap/assets/fonts/bootstrap/'
+
+@import "0-tools/bootstrap/bootstrap.min.css";
+// @import "0-tools/bootstrap-select/select2.min.css";
+@import "0-tools/nice-select/nice-select.css";
+@import "0-tools/chosen-js/chosen.min.css";
+@import "0-tools/font-awesome/css/font-awesome.min.css";
+@import "0-tools/animate.css";
+@import "0-tools/owl-carousel/owl.carousel.min.css";
+@import "0-tools/owl-carousel/owl.theme.default.css";
+@import "0-tools/lightbox/magnific-popup.css";
+// fancyBox
+@import "0-tools/fancyBox/jquery.fancybox.css";
+@import "0-tools/fancyBox/jquery.fancybox-buttons.css";
+@import "0-tools/fancyBox/jquery.fancybox-thumbs.css";
+
+@import "0-tools/hover-direction/style.css";
+
+/* IMPORT BASE
+   ----------------------------- */
+@import "1-base/vars";
+@import "1-base/base";
+@import "1-base/mixin";
+
+/* IMPORT COMPONENTS
+   ----------------------------- */
+@import "2-modules/nice-select-filter";
+
+/* IMPORT LAYOUT
+   ----------------------------- */
+
+@import "3-layout/home/header";
+@import "3-layout/home/thumb";
+@import "3-layout/home/home-choice";
+@import "3-layout/home/home-popular";
+@import "3-layout/home/home-events";
+@import "3-layout/home/home-signup";
+@import "3-layout/home/home-teacher";
+@import "3-layout/home/home-quote";
+@import "3-layout/home/home-subscribe";
+@import "3-layout/home/footer";
+
+
+//HOME-2
+@import "3-layout/home-2/home2-thumb";
+@import "3-layout/home-2/home2-search";
+@import "3-layout/home-2/home2-welcome";
+@import "3-layout/home-2/home2-popular";
+@import "3-layout/home-2/home2-gallery";
+@import "3-layout/home-2/home2-quote";
+
+//HOME-CONTACT
+@import "3-layout/home-contact/home-contact-title";
+@import "3-layout/home-contact/home-contact-information";
+@import "3-layout/home-contact/home-contact-form";
+
+//ABOUT
+@import "3-layout/about/about-choice";
+@import "3-layout/about/about-chart";
+
+//ERROR
+@import "3-layout/error/error-404";
+
+//GALLERY
+@import "3-layout/gallery/gallery-pic";
+
+//TEACHER
+@import "3-layout/teacher/teacher-detail";
+@import "3-layout/teacher/teacher-courses";
+
+//EVENT
+@import "3-layout/event/event-sorting";
+@import "3-layout/event/event-sidebar";
+@import "3-layout/event/event-main-content";
+
+//COURSES
+@import "3-layout/courses/courses-main-content";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* IMPORT RESPONSIVE
+   ----------------------------- */
+   @import "4-responsive/home";
+   @import "4-responsive/res-header";
+
+   @import "4-responsive/res-popular";
+   @import "4-responsive/res-events";
+   @import "4-responsive/res-signup";
+   @import "4-responsive/res-quote";
+   @import "4-responsive/res-footer";
+   @import "4-responsive/res-search";
+   @import "4-responsive/res-gallery";
+   @import "4-responsive/res-about-chart";

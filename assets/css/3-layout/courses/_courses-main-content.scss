@@ -1,0 +1,130 @@
+section.courses-main-content{
+  border-left: 1px solid #eee;
+  .introduction{
+
+    .single-course-right-enroll{
+
+      .enroll{
+
+        img{
+          width: 40px;
+          height: 40px;
+          display: block;
+          float: left;
+          margin-right: 10px;
+        }
+        span, p{
+          font-size: 0.8em;
+          color: #777;
+        }
+        span{
+        font-weight: 600;
+        }
+        span.prices{
+          color: $yellow-2;
+          font-size: 1.5em;
+        }
+        a{
+          background: $yellow;
+          font-size: 0.7em;
+          color: #fff;
+          padding: 20px;
+          font-weight: 600;
+          display: block;
+        }
+      }//enroll
+    }//single-course-right-enroll
+
+
+
+  }//introduction
+
+  .review-nav{
+    img.img-wrap{
+      width: 100%;
+    }
+    nav{
+      a.nav-item{
+        color: #777;
+        font-weight: 600;
+        &.active{
+          color: $yellow;
+        }
+      }
+      img.star{
+        float: right;
+        transform: translate(-15px, -20px ) scale(1.5);
+      }
+    }
+  }
+
+  #nav-home{
+    .sprite-detail{
+      padding: 30px 20px 20px;
+      // margin-bottom: 5px;
+      img{
+        float: left;
+      }
+      span, p{
+        font-size: 0.8em;
+        color: #777;
+      }
+      span{
+      font-weight: 600;
+      }
+    }
+
+    .some-detail{
+      h4{
+        font-size: 1em;
+        margin-bottom: 20px;
+      }
+      p{
+        font-size: 0.9em;
+      }
+    }
+
+  }//nav-home
+
+  #nav-profile{
+    .container{
+      padding: 40px;
+      img{
+        float: left;
+      }
+      p.teacher-name{
+        color: $yellow;
+        font-size: 1em;
+        font-weight: 600;
+      }
+      small{
+        margin-bottom: 30px;
+        display: inline-block;
+      }
+      i{
+        margin-right: 15px;
+        color: #777;
+        &:hover{
+          color: $yellow;
+          cursor: pointer;
+        }
+      }
+
+    }
+
+  }//#nav-profile
+
+  #nav-contact{
+    img{
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }//#nav-contact
+
+
+}
+
+section.courses-content-popular{
+  background: none;
+}
