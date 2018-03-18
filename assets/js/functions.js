@@ -86,7 +86,7 @@ function carousel(){
     margin:50,
     nav:true,
     responsive:{
-      375:{
+      300:{
         items:1
       },
         400:{
