@@ -2526,9 +2526,9 @@ section.courses-content-popular {
 
 /* IMPORT RESPONSIVE
    ----------------------------- */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1200px;
+@media (max-width: 640px) {
+  .title-span span {
+    display: block;
   }
 }
 

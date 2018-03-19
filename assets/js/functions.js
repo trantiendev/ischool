@@ -108,6 +108,9 @@ function carousel(){
     margin:50,
     nav:true,
     responsive:{
+      300:{
+        items: 1
+      },
         400:{
             items:1
         },
@@ -127,6 +130,9 @@ function carousel(){
     nav:true,
     center: true,
     responsive:{
+      300:{
+        items: 1
+      },
       400:{
           items:1
       },
@@ -146,6 +152,9 @@ function carousel(){
     nav:true,
     center: true,
     responsive:{
+      300:{
+        items: 1
+      },
         400:{
             items:1
         },
@@ -165,6 +174,9 @@ function carousel(){
     center: true,
     navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
     responsive:{
+      300:{
+        items: 1
+      },
         400:{
             items:1
         },
@@ -186,6 +198,9 @@ function carousel(){
     autoplayHoverPause:true,
     startPosition: 'URLHash',
     responsive:{
+      300:{
+        items: 2
+      },
         400:{
             items:3
         },
