@@ -222,9 +222,9 @@ function menu(){
 
   var wScroll = $(window).scrollTop();
 
-  $('.thumb-title').css({
-    'transform': 'translate(0px, '+ wScroll /10 +'%)'
-  });
+  // $('.thumb-title').css({
+  //   'transform': 'translate(0px, '+ wScroll /10 +'%)'
+  // });
 
 
   if( $('body').is('.index-page-1') && $(window).width() > 992){
