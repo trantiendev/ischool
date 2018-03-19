@@ -202,7 +202,7 @@ function carousel(){
         items: 2
       },
         400:{
-            items:3
+            items:2
         },
         700:{
             items:4,
