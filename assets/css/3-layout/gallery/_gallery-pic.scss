@@ -7,6 +7,7 @@ section.gallery-2{
   }
   ul.filter-control{
     margin-top: 100px;
+    padding: 0;
     width: 100%;
     text-align: center;
     display: flex;
@@ -14,7 +15,7 @@ section.gallery-2{
     justify-content: center;
     li{
       list-style: none;
-      padding: 0px 25px;
+      padding: 0px 20px;
       font-size: 1.1em;
       font-weight: 600;
       border-right: 2px solid $yellow-2;
