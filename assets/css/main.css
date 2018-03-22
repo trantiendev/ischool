@@ -36,6 +36,10 @@ body.index-page-2 .home-wrap header section.menu #navbarSupportedContent ul li a
   color: #000;
 }
 
+body.index-page-2 .home-wrap header section.menu .fa-shopping-bag {
+  color: #000;
+}
+
 /* MIXIN
    ----------------------------- */
 /* IMPORT COMPONENTS
@@ -215,6 +219,7 @@ section.home-thumb .thumb-title .thumb-button button.btn-course {
 
 section.home-thumb .thumb-title .thumb-button button.btn-read {
   margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 section.home-thumb .thumb-title .thumb-button button.btn-read:hover {
@@ -995,6 +1000,33 @@ section.home-quote .owl-carousel-quote-3 img {
   transform: translate(10px, -10px);
 }
 
+section.home-quote .owl-carousel-quote-3 .owl-nav {
+  display: none;
+}
+
+section.home-quote .owl-carousel-quote-3 .owl-dots {
+  margin-top: 50px;
+}
+
+section.home-quote .owl-carousel-quote-3 .owl-dots .owl-dot.active span {
+  background: #ff961a;
+}
+
+section.home-quote .owl-carousel-quote-3 .owl-dots .owl-dot {
+  border: 1.2px dotted #fddf03;
+  margin: 0px 5px;
+  padding: 1px 1px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+section.home-quote .owl-carousel-quote-3 .owl-dots .owl-dot span {
+  border-radius: 0;
+  margin: 0;
+  background: transparent;
+}
+
 section.home-subscribe {
   background-image: url(../img/home-1/subscribe.png);
   padding: 70px 0px;
@@ -1504,12 +1536,13 @@ section.home-quote.home-quote-2 {
 }
 
 section.home-quote.home-quote-2 .owl-carousel-quote-3 .quote-carousel-3 {
-  border-color: #ff961a;
+  border-color: #fddf03;
 }
 
 section.contact-title {
   margin-top: 135px;
   background-image: url(../img/contact/breadcrumb-bg.png);
+  background-size: cover;
   width: 100%;
   height: auto;
   padding: 80px 0px;
@@ -2563,6 +2596,15 @@ section.courses-content-popular {
   }
 }
 
+@media (max-width: 990px) {
+  section.home-thumb .thumb-title h1 {
+    font-size: 50px;
+  }
+  section.home-thumb .thumb-title h4 {
+    font-size: 1.1em;
+  }
+}
+
 @media (max-width: 640px) {
   section.home-popular h3.popular-title span {
     display: block;
@@ -2632,8 +2674,14 @@ section.courses-content-popular {
 }
 
 @media (max-width: 992px) {
+  section.home-signup .container .form-signup {
+    padding: 30px 30px;
+  }
   section.home-signup .container .form-signup:after {
     display: none;
+  }
+  section.home-signup .container .home-signup-countdown #clock .cc {
+    width: calc(25% - 40px);
   }
 }
 
@@ -2671,9 +2719,6 @@ section.courses-content-popular {
 }
 
 @media (max-width: 740px) {
-  section.gallery-1 {
-    margin-bottom: 120px;
-  }
   section.gallery-1 .gallery-wrap ul li {
     width: 50%;
   }
@@ -2695,6 +2740,9 @@ section.courses-content-popular {
 }
 
 @media (max-width: 640px) {
+  section.welcome {
+    padding: 0px 0px 50px;
+  }
   section.welcome .welcome-img img {
     -webkit-transform: translate(5px, -5px);
     -ms-transform: translate(5px, -5px);

@@ -31,14 +31,27 @@
 
 @media (max-width: 992px) {
   section.home-signup{
+
     .container{
+
       .form-signup{
-        // left: 10%;
+        padding: 30px 30px;
         &:after{
           display: none;
         }
-      }
+      }//form-signup
+
+      .home-signup-countdown{
+
+        #clock{
+          .cc{
+            width: calc(25% - 40px);
+          }
+        }//clock
+
+      }//home-signup-countdown
+
     }
-  }
+  }//section
 
 }

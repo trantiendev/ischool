@@ -73,6 +73,33 @@ section.home-quote{
     img{
       transform: translate(10px, -10px);
     }
+
+      .owl-nav{
+        display: none;
+      }
+      .owl-dots{
+        margin-top: 50px;
+  
+        .owl-dot.active span{
+          background: $yellow;
+        }
+  
+        .owl-dot{
+          border: 1.2px dotted $yellow-2;
+          margin: 0px 5px;
+          padding: 1px 1px;
+  
+          transform: rotate(45deg);
+  
+          span{
+            border-radius: 0;
+            margin: 0;
+            background: transparent;
+          }
+  
+        } //owl-dot
+      } //owl-dots
+      
   }
 
 }

@@ -20,8 +20,9 @@ $(window).resize(function(){
 });
 
 function activeFilter(){
-  $('.filtr-container').filterizr({});
-
+  if( $('body').is('.home-gallery') ){
+    $('.filtr-container').filterizr({});
+  }
 }
 
 function changeLogoNav(){
