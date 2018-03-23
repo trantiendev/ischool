@@ -1835,9 +1835,9 @@ section.about-choice .welcome-img {
 section.about-choice .welcome-img img {
   width: 100%;
   height: auto;
-  -webkit-transform: translate(20px, -20px);
-  -ms-transform: translate(20px, -20px);
-  transform: translate(20px, -20px);
+  -webkit-transform: translate(15px, -15px);
+  -ms-transform: translate(15px, -15px);
+  transform: translate(15px, -15px);
 }
 
 section.about-chart {
